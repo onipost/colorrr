@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="Locale">en</string>
+    <string name="Colorrr">Colorrr</string>
+    <string name="COLORRR">C O L O R R R</string>
+    <string name="Error">Error</string>
+    <string name="Ok">OK</string>
+    <string name="Facebook">Facebook</string>
+    <string name="create_account">Create Account</string>
+    <string name="Skip">Skip</string>
+    <string name="continue_with">CONTINUE WITH</string>
+    <string name="OR">OR</string>
+    <string name="by_continuing_you_agree_with_our">By continuing, you agree with our</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="email_login">Email login</string>
+    <string name="build_your_profile">Build Your Profile</string>
+    <string name="display_name">Display Name</string>
+    <string name="name_to_display_in_the_app">Name to display in the app</string>
+    <string name="Email">Email</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="re_enter_your_email_address">Re-enter your email address</string>
+    <string name="Password">Password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="create_your_password">Enter your password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="re_enter_your_password">Re-enter your password</string>
+    <string name="select_a_photo">Select a Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_library">Choose from Library</string>
+    <string name="Cancel">Cancel</string>
+    <string name="please_enter_valid_name_to_display_in_the_app">Please enter valid name to display in the app.</string>
+    <string name="please_enter_valid_email_address">Please enter valid email address.</string>
+    <string name="email_address_and_email_address_confirmation_are_not_metch">Email address and email address
+        confirmation are not metch.
+    </string>
+    <string name="please_enter_valid_password_it_must_be_at_least_6_characters_length">Please enter valid password, it
+        must be at least 6 characters length.
+    </string>
+    <string name="password_and_password_confirmation_are_not_metch">Password and password confirmation are not metch.
+    </string>
+    <string name="creating_account">Creating account</string>
+    <string name="unknown_error_occurred_please_try_again_later">Unknown error occurred, please try again later.
+    </string>
+    <string name="invalid_arguments_passed_to_request">Invalid arguments passed to request.</string>
+    <string name="database_connection_error">Database connection error.</string>
+    <string name="invalid_credentials_provided">Invalid credentials provided.</string>
+    <string name="you_are_not_authorised_to_perform_this_action">You are not authorised to perform this action.</string>
+    <string name="email_address_already_used_by_another_account">Email address %s already used by another account.
+    </string>
+    <string name="Login">Login</string>
+    <string name="ive_lost_my_password">I\'ve lost my password</string>
+    <string name="logging_in">Logging in</string>
+    <string name="no_account_found_with_provided_email_and_password_combination_please_make_sure_youve_entered_correct">
+        No account found with provided email and password combination, please make sure you\'ve entered correct values
+        and try again.
+    </string>
+    <string name="resetting_password">Resetting password</string>
+    <string name="well_send_email_with_instructions_to_email_in_case_it_associated_with_some_account">We\'ll send email
+        with instructions to email %s in case it associated with some account.
+    </string>
+    <string name="Success">Success</string>
+    <string name="signing_in_with_facebook">Signing in with Facebook</string>
+    <string name="Collections">Collections</string>
+    <string name="Discover">Inspiration</string>
+    <string name="Profile">Profile</string>
+    <string name="Settings">Settings</string>
+    <string name="All">All</string>
+    <string name="Popular">Popular</string>
+    <string name="Premium">Premium</string>
+    <string name="Free">Free</string>
+    <string name="Recommended">Recommended</string>
+    <string name="for_kids">For Kids</string>
+    <string name="featured_collections">Featured Collections</string>
+    <string name="see_all">See All</string>
+    <string name="Unfinished">Unfinished</string>
+    <string name="Completed">Completed</string>
+    <string name="Close">Close</string>
+    <string name="Done">Done</string>
+    <string name="Palettes">Palettes</string>
+    <string name="Colors">Colors</string>
+    <string name="my_palettes">My Palettes</string>
+    <string name="add_palette">Add Palette</string>
+    <string name="restart_image">Restart Image</string>
+    <string name="are_you_sure_you_want_restart_this_image_all_current_progress_will_be_lost">Are you sure you want
+        restart this image? All current progress will be lost.
+    </string>
+    <string name="Restart">Restart</string>
+    <string name="reset_palette">Reset Palette</string>
+    <string name="are_you_sure_you_want_reset_this_palette_all_current_colors_will_be_lost">Are you sure you want reset
+        this palette? All current colors will be lost.
+    </string>
+    <string name="Reset">Reset</string>
+    <string name="Save">Save</string>
+    <string name="save_palette">Save Palette</string>
+    <string name="new_palette">New Palette</string>
+    <string name="create_new">CREATE NEW</string>
+    <string name="delete_palette">Delete Palette</string>
+    <string name="are_you_sure_you_want_to_delete_palette">Are you sure you want to delete palette %s?</string>
+    <string name="Delete">Delete</string>
+    <string name="downloading_data">Downloading data</string>
+    <string name="Continue">Continue</string>
+    <string name="Exit">Exit</string>
+    <string name="are_you_sure_you_want_to_delete_this_image">Are you sure you want to delete this image?</string>
+    <string name="share_you_drawing">Share you drawing</string>
+    <string name="with_colorrr_community">With Colorrr Community</string>
+    <string name="with_your_friends">With your friends</string>
+    <string name="SHARING_TEXT">Hey, take a look on this great arwork I\'ve done with Colorrr app! Get it here -
+        https://itunes.apple.com/us/app/colorrr/id1434590698
+    </string>
+    <string name="Followed">Followed</string>
+    <string name="i_years">%d years</string>
+    <string name="_1_year">1 year</string>
+    <string name="i_months">%d months</string>
+    <string name="_1_month">1 month</string>
+    <string name="i_days">%d days</string>
+    <string name="_1_day">1 day</string>
+    <string name="i_hours">%d hours</string>
+    <string name="_1_hour">1 hour</string>
+    <string name="i_minutes">%d minutes</string>
+    <string name="_1_minute">1 minute</string>
+    <string name="i_seconds">%d seconds</string>
+    <string name="_1_second">1 second</string>
+    <string name="moment_ago">moment ago</string>
+    <string name="i_years_ago">%d years ago</string>
+    <string name="_1_year_ago">1 year ago</string>
+    <string name="i_months_ago">%d months ago</string>
+    <string name="_1_month_ago">1 month ago</string>
+    <string name="i_days_ago">%d days ago</string>
+    <string name="_1_day_ago">1 day ago</string>
+    <string name="i_hours_ago">%d hours ago</string>
+    <string name="_1_hour_ago">1 hour ago</string>
+    <string name="i_minutes_ago">%d minutes ago</string>
+    <string name="_1_minute_ago">1 minute ago</string>
+    <string name="i_seconds_ago">%d seconds ago</string>
+    <string name="_1_second_ago">1 second ago</string>
+    <string name="POSTS">POSTS</string>
+    <string name="FOLLOWERS">FOLLOWERS</string>
+    <string name="LIKES">LIKES</string>
+    <string name="loading_user_profile">Loading user profile</string>
+    <string name="Back">Back</string>
+    <string name="publishing_artwork">Publishing artwork</string>
+    <string name="unable_to_post_your_artwork_please_check_your_internet_connection_and_try_again">Unable to post your
+        artwork, please check your Internet connection and try again.
+    </string>
+    <string name="unfollow_user">Unfollow User</string>
+    <string name="are_you_sure_you_want_to_unfollow_user">Are you sure you want to unfollow user %s?</string>
+    <string name="Unfollow">Unfollow</string>
+    <string name="Post">Post</string>
+    <string name="Comments">Comments</string>
+    <string name="add_comment">Add comment</string>
+    <string name="loading_comments">Loading comments</string>
+    <string name="in_app_purchasing_disabled">In-App Purchasing disabled</string>
+    <string name="check_your_parental_control_settings_and_try_again_later">Check your parental control settings and try
+        again later
+    </string>
+    <string name="colorrr_premium">Colorrr\nPremium</string>
+    <string name="get_access_to_all_images_in_the_app_unlock_all_apps_features_remove_ads">- Get access to all images in
+        the app.\n-Unlock all app\'s features.\n-Remove ads!
+    </string>
+    <string name="unlock_image">Unlock Image</string>
+    <string name="you_have_a_chance_to_unlock_this_image_by_watching_ad_video_whould_you_like_to_do_it_right_now">You
+        have a chance to unlock this image by watching ad video. Whould you like to do it right now?
+    </string>
+    <string name="yes_please">Yes, please</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="preparing_reward_video">Preparing reward video</string>
+    <string name="Purchase">Purchase</string>
+    <string name="restore_purchases">Restore Purchases</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="restoring_purchases">Restoring purchases</string>
+    <string name="unable_to_restore_purchases_please_check_your_internet_connection_and_try_again_later">Unable to
+        restore purchases. Please check your Internet connection and try again later.
+    </string>
+    <string name="purchasing_subscription">Purchasing subscription</string>
+    <string name="unable_to_make_purchase_please_check_your_internet_connection_and_try_again_later">Unable to make
+        purchase. Please check your Internet connection and try again later.
+    </string>
+    <string name="SubscriptionInfo">Optional Colorrr Premium subscription. You can subscribe and pay through your iTunes
+        account. Your subscription will automatically renew unless cancelled at least 24 hours before the end of the
+        current period. You can manage your subscriptions by entering the user settings in iTunes after the purchase.
+        Auto-renew may also be turned off from here. Account will be charged for renewal within 24-hours prior to the
+        end of the current period. Subscriptions may be managed by the user and auto-renewal may be turned off by going
+        to your iTunes Account Settings after purchase.
+    </string>
+    <string name="stay_in_touch">Stay in touch</string>
+    <string name="Help">Help</string>
+    <string name="manage_subscriptions">Manage Subscriptions</string>
+    <string name="Logout">Logout</string>
+    <string name="Notifications">Notifications</string>
+    <string name="email_us">Email Us</string>
+    <string name="colorrr_facebook">Colorrr Facebook</string>
+    <string name="colorrr_twitter">Colorrr Twitter</string>
+    <string name="colorrr_instagram">Colorrr Instagram</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="your_subscriptions_has_been_restored_sucessfully">Your subscriptions has been restored sucessfully.
+    </string>
+    <string name="unable_to_send_e_mail_please_check_your_e_mail_settings">Unable to send e-mail. Please check your
+        e-mail settings.
+    </string>
+    <string name="delete_account">Delete Account</string>
+    <string name="are_you_sure_you_want_delete_to_your_account_this_action_cant_be_undone">Are you sure you want delete
+        to your account? This action can\'t be undone.
+    </string>
+    <string name="checkout_colorrr_app_on_the_app_store_https_itunes_apple_com_app_id1434590698">Checkout Colorrr app on
+        the App Store! https://itunes.apple.com/app/id1434590698
+    </string>
+    <string name="are_you_sure_you_want_to_logout_from_current_account">Are you sure you want to logout from current
+        account?
+    </string>
+    <string name="_7_days_for_free">7 days\nfor free</string>
+    <string name="one_month">One Month</string>
+    <string name="month_after_auto_renewable_subscription">%s/month after. Auto-Renewable Subscription.</string>
+    <string name="one_week">One Week</string>
+    <string name="week_after_auto_renewable_subscription">%s/week after. Auto-Renewable Subscription.</string>
+    <string name="one_year">One Year</string>
+    <string name="year_after_auto_renewable_subscription">%s/year after. Auto-Renewable Subscription.</string>
+    <string name="continue_drawing">Continue Drawing</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="report_item">Report Item</string>
+    <string name="are_you_sure_you_want_to_remove_this_item_from_colorrr_community">Are you sure you want to remove this
+        item from Colorrr Community?
+    </string>
+    <string name="are_you_sure_you_want_to_report_this_item_by">Are you sure you want to report this item by %s?
+    </string>
+    <string name="Report">Report</string>
+    <string name="deleting_item">Deleting item</string>
+    <string name="reporting_item">Reporting item</string>
+    <string name="thank_you_for_reporting_item_well_review_and_remove_it_from_colorrr_comminity_if_required">Thank you
+        for reporting item, we\'ll review and remove it from Colorrr Comminity if required.
+    </string>
+    <string name="item_reported">Item Reported</string>
+    <string name="Publish">Publish</string>
+    <string name="Published">Published</string>
+    <string name="FOLLOWED">FOLLOWED</string>
+    <string name="Follow">Follow</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="Edit">Edit</string>
+    <string name="updating_account">Updating account</string>
+    <string name="please_enter_current_password_it_must_be_at_least_6_characters_length">Please enter current password,
+        it must be at least 6 characters length.
+    </string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="enter_your_current_password">Enter your current password</string>
+    <string name="enter_your_new_password">Enter your new password</string>
+    <string name="unable_to_update_account_password_invalid_current_password_provided">Unable to update account
+        password. Invalid current password provided.
+    </string>
+    <string name="here_is_no_works_yet_try_to_follow_some_users_to_get_personalized_feed">Here is no works yet. Try to
+        follow some users to get personalized feed.
+    </string>
+    <string name="you_dont_have_anything_here_yet_time_to_start_coloring">You don\'t have anything here yet. Time to
+        start coloring!
+    </string>
+    <string name="dont_have_any_published_works_yet">%s don\'t have any published works yet.</string>
+    <string name="here_is_no_comments_yet_for_this_work_its_time_to_add_one_right_now">Here is no comments yet for this
+        work. Its time to add one right now!
+    </string>
+    <string name="NextDayNotificationTitle">Its Colorrr time!</string>
+    <string name="NextDayNotificationBody">Relax and create new stunning artworks. And don\'t forget to share it with
+        community!
+    </string>
+    <string name="NextWeekNotificationTitle">We\'ve missed you!</string>
+    <string name="NextWeekNotificationBody">We didn\'t see you for a long time, maybe its time to create some new
+        artwork?
+    </string>
+    <string name="NextMonthNotificationTitle">Colorrr needs you!</string>
+    <string name="NextMonthNotificationBody">We have a lot of updates since you last visit and we\'re eager for your new
+        artworks!
+    </string>
+    <string name="swipe_left_to_continue">Swipe left to continue</string>
+    <string name="take_a_short_tour_to_better_understand_the_application">Take a short tour to better\nunderstand the
+        application!
+    </string>
+    <string name="CollectionsHelpTitle">Collections Screen</string>
+    <string name="CollectionsHelpText">On this screen you\'ll see all available for coloring collections and images.
+        Filter collections by different criterias and discover featured collections. Start coloring any image you like
+        by tapping it in the list. If you\'re already started coloring selected image before you\'ll able to continue
+        it, start over, create duplicate or share it with friends of Colorrr community.
+    </string>
+    <string name="ColoringHelpTitle">Coloring Screen</string>
+    <string name="ColoringHelpText">Main screen of the app where you\'ll create your artworks. Select color from dozens
+        of builtin palettes or create your own with any colors you may need. Change fill type from solid color to
+        different gradients and textures. Select gradient or texture angle by holding image and rotating preview. And
+        once ready just tap image to fill some region. You\'re always can undo or redo your steps or restart image from
+        scratch using buttons located in top bar. Tap \"Done\" once your artwork finished to publish it!
+    </string>
+    <string name="DiscoverHelpTitle">Inspiration Screen</string>
+    <string name="DiscoverHelpText">Feed of all works published by Colorrr users. Share your own artworks with community
+        to get feedback, discover other user\'s works, comment and like it, or repaint any image you like. Follow users
+        you\'re like to get personalized feed of works. Also you can explore all user\'s works by tapping profile
+        picture in any feed item.
+    </string>
+    <string name="ProfileHelpTitle">User\'s Profiles</string>
+    <string name="ProfileHelpText">By opening someone\'s profile you\'ll able to see all published works by this user.
+        Also you\'ll able to check all followers or all followed users to find interesting artists and get inspiration
+        for your future works!
+    </string>
+    <string name="OwnProfileHelpTitle">Your Own Profile</string>
+    <string name="OwnProfileHelpText">You\'re also have your own profile screen. Here you\'ll able to find all images
+        you have started coloring before as well as all published works. You will be able to manage your followers and
+        users you\'re following. Finally you always able to edit your profile in the app.
+    </string>
+    <string name="LetsStartHelpTitle">It\'s time to Colorrr!</string>
+    <string name="LetsStartHelpText">We\'re can\'t wait to see that you\'ll create with Colorrr. Now relax, select any
+        image you\'re like and start creating something new! If you have some questions or need any assistance - just
+        use \"Email Us\" item in Settings screen and our support team will be happy to help you. And remember - everyone
+        can be an artist!
+    </string>
+    <string name="internet_connection_required">Internet Connection Required</string>
+    <string name="unfortunately_youre_not_connected_to_internet_and_we_dont_have_any_data_cached_on_your_device_so_wer">
+        Unfortunately you\'re not connected to Internet and we don\'t have any data cached on your device, so we\'re not
+        able to launch the app. Please enable Internet connection and try again.
+    </string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="no_internet_connection_detected_some_app_features_will_not_work_unless_youre_connect_to_intenet">No
+        Internet connection detected. Some app features will not work unless you\'re connect to Intenet.
+    </string>
+    <string name="unable_to_load_image_data_from_server_please_check_your_internet_connection_and_try_again_later">
+        Unable to load image data from server. Please check your Internet connection and try again later.
+    </string>
+    <string name="unable_to_load_image_data_no_internet_connection_available_please_connect_to_internet_and_try_again">
+        Unable to load image data - no Internet connection available. Please connect to Internet and try again.
+    </string>
+    <string name="unable_to_follow_user_no_internet_connection_available_please_connect_to_internet_and_try_again">
+        Unable to follow user - no Internet connection available. Please connect to Internet and try again.
+    </string>
+    <string name="unable_to_unfollow_user_no_internet_connection_available_please_connect_to_internet_and_try_again">
+        Unable to unfollow user - no Internet connection available. Please connect to Internet and try again.
+    </string>
+    <string name="unable_to_like_post_no_internet_connection_available_please_connect_to_internet_and_try_again">Unable
+        to like post - no Internet connection available. Please connect to Internet and try again.
+    </string>
+    <string name="unable_to_edit_your_profile_no_internet_connection_available_please_connect_to_internet_and_try_agai">
+        Unable to edit your profile - no Internet connection available. Please connect to Internet and try again.
+    </string>
+    <string name="unable_to_delete_your_profile_no_internet_connection_available_please_connect_to_internet_and_try_ag">
+        Unable to delete your profile - no Internet connection available. Please connect to Internet and try again.
+    </string>
+    <string name="unable_to_load_your_followers_list_no_internet_connection_available_please_connect_to_internet_and_t">
+        Unable to load your followers list - no Internet connection available. Please connect to Internet and try again.
+    </string>
+    <string name="unable_to_load_list_of_users_youre_follow_no_internet_connection_available_please_connect_to_interne">
+        Unable to load list of users you\'re follow - no Internet connection available. Please connect to Internet and
+        try again.
+    </string>
+    <string name="unable_to_load_comments_for_post_no_internet_connection_available_please_connect_to_internet_and_try">
+        Unable to load comments for post - no Internet connection available. Please connect to Internet and try again.
+    </string>
+    <string name="unable_to_load_users_profile_no_internet_connection_available_please_connect_to_internet_and_try_aga">
+        Unable to load user\'s profile - no Internet connection available. Please connect to Internet and try again.
+    </string>
+    <string name="unable_to_publish_your_drawing_no_internet_connection_available_please_connect_to_internet_and_try_a">
+        Unable to publish your drawing - no Internet connection available. Please connect to Internet and try again.
+    </string>
+    <string name="unable_to_delete_your_drawing_no_internet_connection_available_please_connect_to_internet_and_try_ag">
+        Unable to delete your drawing - no Internet connection available. Please connect to Internet and try again.
+    </string>
+    <string name="unable_to_report_post_no_internet_connection_available_please_connect_to_internet_and_try_again">
+        Unable to report post - no Internet connection available. Please connect to Internet and try again.
+    </string>
+    <string name="nobody_followed_you_at_the_moment_its_time_to_create_and_publish_new_work">Nobody followed you at the
+        moment. Its time to create and publish new work!
+    </string>
+    <string name="nobody_followed_user_at_the_moment">Nobody followed user at the moment.</string>
+    <string name="youre_not_following_any_user_at_the_moment_its_time_to_explore_community_feed_and_follow_great_artis">
+        You\'re not following any user at the moment. Its time to explore community feed and follow great artists!
+    </string>
+    <string name="user_is_not_following_anyone_at_the_moment">User is not following anyone at the moment.</string>
+    <string name="generate_palette">Generate Palette</string>
+    <string name="load_from_internet">Load from Internet</string>
+    <string name="processing_image">Processing image</string>
+    <string name="search_image">Search Image</string>
+    <string name="loading_image">Loading image</string>
+    <string name="continue_coloring">Continue coloring</string>
+    <string name="inspiration_feed">Inspiration Feed</string>
+    <string name="followed_feed">Followed Feed</string>
+    <string name="unable_to_load_data_from_server_please_check_your_internet_connection_and_try_again_later">Unable to load data from server. Please check your Internet connection and try again later.</string>
+</resources>

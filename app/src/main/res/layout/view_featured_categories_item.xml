@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="244dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_height="wrap_content">
+
+    <app.colorrr.colorrr.views.TextViewSemiBold
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:singleLine="true"/>
+
+    <app.colorrr.colorrr.views.RoundedRelativeLayout
+            android:id="@+id/cover_container"
+            android:layout_width="244dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="6dp"
+            app:cornerRadius="2dp">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                    android:id="@+id/placeholder"
+                    android:layout_width="41dp"
+                    android:layout_height="41dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/item_loading"/>
+            <ImageView
+                    android:id="@+id/cover"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+        </RelativeLayout>
+    </app.colorrr.colorrr.views.RoundedRelativeLayout>
+</LinearLayout>

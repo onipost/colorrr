@@ -1,0 +1,10 @@
+
+\.idea/
+\.gradle/
+*.lock
+
+app-android\.iml
+
+app/app\.iml
+
+app/app-app\.iml

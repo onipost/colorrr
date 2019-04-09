@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <include layout="@layout/_toolbar"/>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginRight="21dp"
+            android:gravity="center_horizontal">
+        <ImageView
+                android:layout_width="81dp"
+                android:layout_height="84dp"
+                android:layout_marginTop="51dp"
+                android:layout_marginBottom="22dp"
+                android:src="@drawable/logo_color"/>
+        <app.colorrr.colorrr.views.TextViewSemiBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/COLORRR"
+                android:textColor="@color/mediumPink"
+                android:textAlignment="center"
+                android:textSize="13sp"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="45dp">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <app.colorrr.colorrr.views.TextViewLight
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Email"
+                        android:textColor="@color/greyish_70"/>
+                <app.colorrr.colorrr.views.EditTextRegular
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:textColorHint="@color/pinkish_grey"
+                        android:textColor="@color/darkish_pink"
+                        android:textSize="16sp"
+                        android:inputType="textEmailAddress"
+                        android:hint="@string/enter_your_email_address"
+                        android:background="@null"/>
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/white_three"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp">
+                <app.colorrr.colorrr.views.TextViewLight
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Password"
+                        android:textColor="@color/greyish_70"/>
+                <app.colorrr.colorrr.views.EditTextRegular
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:textColorHint="@color/pinkish_grey"
+                        android:textColor="@color/darkish_pink"
+                        android:textSize="16sp"
+                        android:inputType="textPassword"
+                        android:hint="@string/enter_your_password"
+                        android:background="@null"/>
+            </LinearLayout>
+
+            <app.colorrr.colorrr.views.TextViewSemiBold
+                    android:id="@+id/lost_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginTop="58dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/darkish_pink"
+                    android:text="@string/ive_lost_my_password"
+                    android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ImageView
+            android:layout_width="305dp"
+            android:layout_height="152.5dp"
+            android:src="@drawable/ornament_down"
+            android:layout_gravity="bottom|center_horizontal"/>
+
+    <include layout="@layout/_loader"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

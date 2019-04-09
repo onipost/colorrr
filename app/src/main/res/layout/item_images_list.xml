@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/root"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:paddingBottom="12dp">
+    <app.colorrr.colorrr.views.RoundedRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            app:cornerRadius="6.8dp">
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                    android:id="@+id/placeholder"
+                    android:layout_width="41dp"
+                    android:layout_height="41dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/item_loading"/>
+            <ImageView
+                    android:id="@+id/cover"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"/>
+        </RelativeLayout>
+        <ImageView
+                android:id="@+id/premium"
+                android:layout_width="11dp"
+                android:layout_height="19dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="9dp"
+                android:layout_marginEnd="9dp"
+                android:src="@drawable/paid_content"/>
+    </app.colorrr.colorrr.views.RoundedRelativeLayout>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_rounded20"/>
+</RelativeLayout>

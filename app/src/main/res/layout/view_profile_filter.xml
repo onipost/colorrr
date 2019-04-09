@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/container"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+    <app.colorrr.colorrr.views.TextViewSemiBold
+            android:id="@+id/filter_all"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:tag="0"
+            android:gravity="center"
+            android:textColor="@color/pinkish_grey"
+            android:text="@string/All"
+            android:layout_weight="1"/>
+    <app.colorrr.colorrr.views.TextViewSemiBold
+            android:id="@+id/filter_published"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:tag="1"
+            android:gravity="center"
+            android:textColor="@color/pinkish_grey"
+            android:text="@string/Published"
+            android:layout_weight="1"/>
+    <app.colorrr.colorrr.views.TextViewSemiBold
+            android:id="@+id/filter_unfinished"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:tag="2"
+            android:gravity="center"
+            android:textColor="@color/pinkish_grey"
+            android:text="@string/Unfinished"
+            android:layout_weight="1"/>
+</LinearLayout>

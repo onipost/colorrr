@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <app.colorrr.colorrr.views.ViewPagerNonSwipe
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp">
+        <FrameLayout
+                android:id="@+id/home_tab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        <FrameLayout
+                android:id="@+id/stats_tab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        <FrameLayout
+                android:id="@+id/calendar_tab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        <FrameLayout
+                android:id="@+id/inbox_tab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+    </app.colorrr.colorrr.views.ViewPagerNonSwipe>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="50dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/navigation"
+            app:itemTextAppearanceActive="@style/BottomNavigationView.Active"
+            app:itemTextAppearanceInactive="@style/BottomNavigationView"
+            app:itemIconSize="24dp"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_nav_menu"/>
+
+    <include layout="@layout/_loader"/>
+
+</RelativeLayout>
